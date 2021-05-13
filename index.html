@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>page Web</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Bussines page</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="Video 3.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Nati tech</h2>
+            <h3>With INSA partnership</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officiis ullam blanditiis reiciendis pariatur dolores eos fugiat est molestiae maiores.</p>
+            <a href="mailto:mitikunathan@gmial.com">contact me</a>
+            </a>
+        </ul>    
+        </div>
+        <ul class="social">
+            <li><a href="#">
+                <a
+                        href="https://www.instagram.com/natttty.m/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/instagram.png"
+                            alt="instagram link"
+                            class="icon-list-img"
+                        />
+                    </a>
+                    <a
+                        href="https://www.twitter.com/Nati31620764/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/twitter.png"
+                            alt="twitter link"
+                            class="icon-list-img"
+                        />
+                    </a>   
+                    <a
+                    href="https://www.Facebook.com/nati.race/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="images/facebook.png"
+                        alt="Facebook link"
+                        class="icon-list-img"
+                    />
+                </a>  
+            </a></li>     
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="https://cychallenge.insa.gov.et/login/index.php" target="_blank">Home</a></li>
+            <li><a href="https://www.twitter.com/AbiyAhmedAli/" target="_blank">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="https://dev.to/natttty.m" target="_blank">Blog</a></li>
+            <li><a href="mailto:mitikunathan@gmial.com">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menutoggle = document.querySelector('.toggle')
+        const showcase= document.querySelector('.showcase')
+
+        menutoggle.addEventListener('click', function() {
+            menutoggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>  
+</body>
+</html>
