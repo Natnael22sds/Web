@@ -97,6 +97,18 @@
     font-weight: 800;
     line-height: 1em;
     text-transform: capitalize;
+    margin-right: 6px;
+    transition: 0.5s;
+    letter-spacing: 0.2s;
+    
+}
+
+.text h2:hover {
+    letter-spacing: 6px;
+}
+
+.text h2:hover {
+    cursor: pointer;
 }
 
 .text h3 {
